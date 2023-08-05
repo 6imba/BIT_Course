@@ -1,0 +1,59 @@
+picture, photo, image, graphic, photograph, 
+- VR, AR, MR, Meta Verse
+- 1D, 2D, 3D, 4D,
+- Dimention, Vector image
+- 
+
+
+
+Q. What are the differences between graphics and images?
+	- I believe what you are looking for is the difference between a raster and a vector.
+	- An image conventionally refers to a raster whereas graphic refers to a vector.
+	- The difference between the two in the most simplest sense is that you can upscale a vector (graphic) without losing quality whereas a raster (image) would become blocky on doing.
+	- images(raster) and graphics(vector)
+	- Raster_Images are made up of pixels of varying colours and this pixel data is stored in a file. Upscaling just stretches these pixels and hence causes the quality loss.
+	- Whereas Vectors are made up of paths and their files store information regarding where these lines start and end and can therefore recreate the visual data upon upscaling.
+
+	- In simple terms, an image is defined by pixels. To manipulate the image (scale, crop, enhance, etc.) you need to process each pixel individually. Images are typically defined in two dimensions (although one can also define volumetric - 3D- pixels).
+	- In graphics, one deals mostly with vectors and polygons. Each object is expressed as a collection of vectors or polygons. Of course, from a graphics image you can easily make a pixel-based image; the reverse is much harder. Graphics can be represented in either two or three dimensions.
+
+	- 
+
+
+# Vaccum Tube VS Transistor?
+	- Transistor(3 semiconductor glued one another)
+	- semiconductor: conductor that conducts partly(to some extent; not completely)
+	- metal-semicondutor-insulator
+	- diode and transistor
+	- https://www.youtube.com/watch?v=0CvdruTMH1c
+
+# Quality and resolution.
+# Pixel(Picture and Element)
+# A pixel = RGB
+# We can create millions of color with combination of RED, GREEN,& BLUE.
+# 0-255
+# https://www.youtube.com/watch?v=wsFROq2jVSQ
+
+
+
+- Color image And Black/White image(Threshold| Grey Scale)
+- 
+
+
+# Raster images VS Vector images:
+	- Raster_Images: 
+		* Image File Formats: JPG,JPEG(LossyCompressionImageAlsoGoodQuality),GIF,PNG,TIFF,
+		* File Formats to create images: RAW(DNG,manymore).  A raw data file (also commonly called an ASCII file).
+	- Vector_Images:
+		* Image File Formats: EPS,PSD,AI.
+		
+# Image depth: shades btn black and white.
+	> 1-bit
+	> 4-bit
+	> 8-bit (3 channels:RGB)
+	> 10-bit
+	> 16-bit
+
+# Bit depth vs Bit rate vs BPC(Bit Per Channel)
+
+# Turning 2D into depth images.

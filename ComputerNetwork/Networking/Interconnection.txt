@@ -1,0 +1,210 @@
+segment
+packet
+host
+
+computer network => uswd for sharing resources
+
+
+node 
+Intermediary devices/node => switch,router,tower,security devices(firewall)
+end devices/ end point/node => server,mobile,laptop
+
+end node -> switch -> router + router + router <-  switch <- end node
+ 
+
+
+real time communication
+
+
+data flow in data communication
+1.simplex => unidirection => eg. keyboard
+2.half duplex => both direction once at a time => eg. waljie-talkies
+3.full duplex => both direction simultaniously => eg. phone
+
+protocol (when,how and what data is comunicates) , governsdata communication
+sender - medium - reciver
+
+element of protocol
+data encoding,formating and encapsulation,timing,size,delivery option
+
+
+
+time & size => acknowledgement 
+On the other hand, UDP doesn't send an acknowledgement so the sender will not know if the packets were received or not. TCP sends out a stream of data packets while UDP packets are sent individually.
+
+
+messege delivery option :
+1.unicast
+2.multicast
+3.Broadcast
+
+
+peer-to-peer network => not scable, no centralixation
+client-server network => scable , centralized adminstration
+
+
+node,media,sevices => network
+
+1.node 
+Intermediary devices/node => switch,router,tower,security devices(firewall)
+end devices/ end point/node => server,mobile,laptop
+
+
+2.media
+wired media(guided)
+ethernet straight through cable,ethernet cross over cable,fiber optic cable, coaxial cable,USB cable
+
+wireless media(unguided)
+infrared -> tv remote
+radio -> blutooth, wifi
+microwaves -> phone 
+satellite -> mobile GPS
+
+
+3.sevices
+emial,storage,filesharing,instant-messege,online game,voice ip,voice telephony(vedio call), serfing (world wide web) accessing websites
+
+
+
+Question :
+What is present on the Internet other than the World Wide Web? Does World Wide Web hold the major portion of the internet?
+
+When you join online classroom using Zoom, that's not World Wide Web.
+When your smart bulb turns off after you ordered it to via a Smart Speaker, that's not World Wide Web.
+When you use VPN, that's not World Wide Web.
+When you do Bitcoin transaction, that's not World Wide Web.
+When you send email using MS Outlook on PC, that's not World Wide Web.
+When you use Torrents to download pirated movies and softwares, that's not World Wide Web.
+When two cloud servers communicate with each other, that's not World Wide Web.
+note : Only whatever you do in your web browser is World Wide Web.
+
+
+
+network classifcation :- LAN, MAN, WAN, WWAN(internet)
+BYOD, Online Collabration, Cloud Computing
+
+network tropology :- (arrangement of node of computer network)
+physical and logical topology.
+bus, star, ring, mesh, hybrid   
+
+
+
+ip address => where u are???
+1.logical addresss
+2.every node in Computer Network is identifiesd with IP address only
+3.location of person 
+4.Router needs IP
+5.changes manully or dynamically aaon the basis of location
+6.represented in decimal (0.0.0.0 - 255.255.255.255) 4-octet/ 34-bits
+7. (.) is seperator
+8. cmd =. ipconfig (192.168.0.116(Preferred))
+
+mac address => who u are???
+1.globally_unique/physical/hardware address
+2.every node in LAN is identifiesd with MAC 
+3.name of person
+4.Switches needs MAC
+5.cannot change assigned by manufacture
+6.represented in hexadecimal (70-20-84-EB-00-FC) 48-bits
+7. (.,-,:) are seperator base on manufacturer
+8. cmd =. ipconfig/all (40-5B-D8-05-2A-63)
+NIC
+
+
+sources -> destination
+data+MAC+IP -> destinatin/sources
+
+switch maintains MAC table
+
+PORT addressing
+First Analogy:
+1.> Reaching our city        => Reaching our network(LAN)  => (IP address)
+2.> Reaching our apartment   => Reaching our host          => (MAC address)
+3.> Reaching our room_person => Reaching our right_process => (Port address)
+
+.>in node many processes will be running.
+.>data which are sent/receive must reach the right process.
+.>every process in a node has unique port_number/port_address.
+
+Port => Communication_endpoint
+Fixed_port_number(25,80'youtube' etc) and Dynamic_port_number(0-62414)
+
+source_port_number/destination_port_number
+
+Observation:
+browser(port_number:643233 'Dynamic')->node/PC(MAC)->switch(MAC) ->router(IP) -> Internet_Cloud -> Youtuber-server(port no:80 'Fixed')
+
+How to see port number in real devices:
+win+R -> type resmon(resources monitoring) => show what are the port number that are running?
+ 
+
+Note: Before sending data,any nodde must:-
+	*Attach scource_IP and destination ->(so that network can be identified)
+	*Attach scource_MAC and destination_MAC ->(so that right host from that particular network can be identified)
+	*Attach scource_Port_number and destination_Port_number ->(so that right_process from that particular host can be identified)
+
+
+{
+Switching => Switching in computer network helps in deciding the best route for data transmission if there are multiple paths in a larger network.
+One-To-One connection
+
+Some of switching techniques:
+1.Circuit_Switching => connection_established -> data_transfer -> connection_disconnect (eg:telephone network)
+2.Message_Switching => store and forward mechanism in intermediary node (eg:) not suitable for real_time communication/streamming.
+
+3.Packet_switching (Internet is a packet switched network)
+
+message -> break into chunks -> packet(sources/destination_IP + chunks + sequence_number) 
+sequence_number helps to reorder_packer, detect_missing_packet, sent_actknowledgment
+
+Two approach of packet switching:
+*Datagram -> connectionless_switching
+*Virtual Circuit -> connection_oriented_switching
+}
+
+
+different layers has its own protocol
+
+OSI 'Open System Interconnection' is not a protocol so its not implemented.It is just a guideline for two different system/computer(e.g communication between Window and Linux) who wants to communicate with each other following these guidelines.
+
+OSI was never fully implemented, its just a guideline.
+
+
+TCP/IP 'Transmission Control Protocol/Internet Protocol'
+
+In the world of networking, network designers have proposed models like OSI Reference model and TCP model to simplify the concept of how a communication is carried out between two hosts or networks.
+
+The OSI (Open System Interconnection) model is a reference model which is generally used as a guidance tool. It provides a standard framework of communication between the network and end user.
+
+TCP model is in a way an implementation of the OSI model. It is based on protocols around which Internet has been developed. This network architecture describes the set of protocols that allow communication across multiple diverse networks.
+
+
+OSI
+
+1.Application     My password is 1a2b4w# (info)
+2.Presentation	  asdas#2234jnfeu383n*$8 (Modifies info)
+3.Session	  asdas#2234jnfeu383n*$8 (session activity is carried out)
+4.Transport	  TL_info + asdas#2234jnfeu383n*$8
+5.Network	  NL_info + TL_info + asdas#2234jnfeu383n*$8
+6.Datalink	  DL_info + NL_info + TL_info + asdas#2234jnfeu383n*$8
+7.Physical	  101011000111000101010101001100110101 (convert all the data from above layers into 0s and 1s)
+
+Here these 0s and 1s are going to be sent into other side of network/destination_computer.
+This physical layers knows to which kinds of medium its connected to.If it is connected to a wired medium it converts entire 0 and 1s into signals, electical_signals for ethernet_cables, light_waves for fiber_optic_cable, waves for wireless
+
+
+
+   ________________         					 ________________
+  | 1.Application  |	   				        | 7.Application  |  
+  | 2.Presentation |        					| 6.Presentation |
+  | 3.Session	   |        					| 5.Session	 | 
+  | 4.Transport	   |        					| 4.Transport	 |
+  | 5.Network	   |        					| 3.Network      | 
+  | 6.Datalink     |						| 2.Datalink     |
+  | 7.Physical     |     					| 1.Physical     |
+  |________________| 101010101010110100110101010101000011100001 |________________|		      |_______|.....................................................|________|
+
+
+
+
+

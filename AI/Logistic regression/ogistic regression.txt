@@ -1,0 +1,66 @@
+
+
+Goals to cover:
+Regression
+Types of regression
+Logistic regtession
+
+
+
+
+Firstly what is regression?
+
+Regression is a statistical method that attempts to determine the strength and character of the relationship between corelated variables where one is dependent variable 
+(unknown variable usually denoted by Y) and another one is one/series of other independent variables/factor (known variable usually denoted by X).
+
+Examples :
+independent variables(x) : season, no. of employee, month
+dependent variables(y)   : amount of rice production, annual sales, rainfall
+
+Synonoms of variable : characteristis/varient/factor/features
+
+
+
+Types of Regression:
+Linear Regression
+Logistic Regression
+Polymorphic Regression
+
+
+
+Email is span or not? Yes/No, 0/1, True/False, High/Low (Binary Classification)
+Which party will win the election? Congress/Yamale/Maubadi/Daparba : More than two categories -> (Multiclass Classification)
+
+
+Logistic regression is one of the most popular Machine learning algorithm/technique that comes under Supervised Learning techniques which use labeled dataset to make the predictions of Categorical value and solve Classification as well as for Regression problems, but mainly used for Classification problems.
+ 
+This algorithm classifies in which category it belong?
+
+
+Taking exmple of email spam checking, the independent facotrs for email span checking are Talking about money, How often it send email, Location ?
+
+
+
+Note Term : Sigmoid Function, Probability, S-curve
+
+
+
+
+Linear regression gives value of Y(Dependent variable).We will squize that value into 1-0 range by keeping that value into a special funtion.That special function is called segmoid function.
+ 
+Here,
+Logistic regresion gives probability value using Sigmoid Function.
+Logistic regresion takes trained dataset, fit linear model(gives value), squize that value using sigmoid function, gives probability, finally gives logistic result ( 0 - 0.5 - 1 ).
+If Probability > 0.5 or 50% , its 1
+If Probability < 0.5 or 50% , its 0
+
+0             0.5        1
+Low    Thresold_Value    High
+
+
+
+
+
+
+
+

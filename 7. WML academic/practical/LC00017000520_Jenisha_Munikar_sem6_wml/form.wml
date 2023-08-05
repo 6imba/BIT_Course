@@ -1,0 +1,40 @@
+
+<wml>
+    <card title="WML Form">
+        <onevent type="onenterforward">
+            <refresh>
+                <setvar name="my_id" value="123456"/>
+            </refresh>
+        </onevent>
+
+        <p>
+            <b>WML Registration Form</b> <br/><br />
+            Name <br/>
+            <input name="name"/><br/>
+
+            Gender<br/>
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br />
+
+            What do you want to do in WML?<br />
+            <select name="choice" multiple="true">
+                <option>Front end</option>
+                <option>Backend end</option>
+                <option>Website development</option>
+                <option>Mobile app development</option>
+            </select><br /><br />
+
+            <anchor>
+                <go method="get" href="processing.asp">
+                    <postfield name="name" value="$(Name)"/>
+                    <postfield name="gender" value="$(Gender)"/>
+                    <postfield name="choice" value="$(choice)"/>
+                    <postfield name="id" value="$(my_id)"/>
+                </go>
+                Submit
+            </anchor>
+        </p>
+    </card>
+</wml>

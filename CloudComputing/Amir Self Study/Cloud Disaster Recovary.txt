@@ -1,0 +1,29 @@
+# Disasters in cloud:
+	- Disasters in cloud is the unfortunate phenomenon, which might cause loss in data or degrade security aspect of cloud.
+	- Disasters can be any of:
+		- Natural disasters, such as earthquakes or floods,
+		- Technical failures, such as power failure or network connectivity,
+		- Human actions, such as inadvertent misconfiguration or unauthorized/outside party access or modification.
+# Cloud disaster recovery:
+	- Cloud disaster recovery (CDR) is a cloud-based managed service that helps you quickly recover your organization’s critical systems after a disaster and provides you remote access to your systems in a secure virtual environment.
+	- Cloud disaster recovery is a service that enables the backup and recovery of remote machines on a cloud-based platform.
+
+# Cloud disaster recovery plan:
+	- Disasters can be anything that puts organization operation at risk, from Cyber attack, Technical equipment failure, Natural disaster.
+	- Disaster Recovery Plan is the documented structured step-by-step approach/precaution with instruction for responding/minimizing negative effect at the time of unplandded incidents/disaster, so that organization can contnue/resume critical function/operation esaily and quickly.
+
+# Two of the most important parameters of Disaster Recovery Plan RTO and RPO.
+
+# Recovery Time Objective: RTO
+	- It is the Target time duration within which a business process must be restored after a disaster.(RTO of 2 hours, RTO of 3 hours, RTO of 2.5 hours)
+	- eg: System went down at 3 pm and resumed at 5pm. ==> RTO is 2 hours.(This means data recovary should be completed within the given time.)
+	- How quickly we can resume our operation?
+
+# Recovery Point Objectives: RPO
+	- In what interval of time doe we need to to backup our data. It is the maximum acceptable amount of data loss mesured in time.
+	- eg: Backup is taken twice, i.e 3:00 AM and at 3:00 PM. RPO of 12 hours indicates that organizations need to ensure that their data loss shouldnt exceed for 12 hours of data captured.
+	- How much data will we lose at the time of disaster?
+
+# Figure:
+
+# recovery point objective differs from recovery time objective?

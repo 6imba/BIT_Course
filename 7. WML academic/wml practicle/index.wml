@@ -1,0 +1,16 @@
+<wml>
+
+<table columns="3">
+    <tr>
+        <td>Name</td>
+        <td>Address</td>
+        <td>Number</td>
+    </tr>
+    <tr>
+        <td>Amir</td>
+        <td>Nepal</td>
+        <td>123freefreefree</td>
+    </tr>
+</table>
+
+</wml>

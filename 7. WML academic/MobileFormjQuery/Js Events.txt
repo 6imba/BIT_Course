@@ -1,0 +1,3 @@
+HTML Events
+
+JavaScript perform action on HTML events.

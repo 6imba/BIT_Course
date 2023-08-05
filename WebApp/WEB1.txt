@@ -1,0 +1,57 @@
+hyper text
+static dynamic and stretched hypertext
+
+
+veiw source => html source code
+
+html says browers how to diplay text,img and other element on a web page
+
+hypertextlink ==> hyperlink ==> link 
+-> is attached either any text or image
+-> text that contain address of other webpage 
+-> helps to connect two or more web pages
+-> by default hypertextlink, hyperlink, link is blue in color, but we can change it using css code
+
+internal and external and relative and absolute link (redirect)
+
+url,address
+DNS
+
+World Wide Web is an information system on the Internet which allows documents to be connected to other documents by hypertext links, enabling the user to search for information by moving from one document to another
+
+Search Engine
+A search engine is a software system that is designed to carry out web searches, which means to search the World Wide Web in a systematic way for particular information specified in a textual web search query.
+
+
+Search_Engine     Owner_Company    
+1. Bing		  Microsoft 
+2. Goggle         Goggle
+3. Baidu          DO Global (china)
+4. Yahoo          Verizon Communications
+
+
+
+
+joinhoney.eextension
+
+
+
+get-post request
+cyber secutity
+CSRF token:
+this site requires a CSRF cookie when submitting forms. This cookie is required for security reasons, to ensure that your browser is not being hijacked by third parties.
+
+encryption
+cross site scripting attack ==> inject javascript on your page and you execute it mistakenly and ask you for cookies/confidentional information
+
+get => give information through url => has limited url length
+if data to be passed into server(...Django's primary deployment platform is WSGI, the Python standard for web servers and applications...) extends get limit following error occur
+Error response
+Error code: 414
+Message: Request-URI Too Long.
+Error code explanation: 414 - URI is too long.
+
+post => add additional info
+
+serverside url ?
+

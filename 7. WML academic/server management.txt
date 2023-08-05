@@ -1,0 +1,25 @@
+run ==> inetmgr : IIS Manager
+wap patches?
+install patches to run wml.
+localhost: of iis 
+host web|mobile_app from your local pc.
+Cloudflare?
+vps?
+share hosting vs dedicated hosting
+digital ocean: testing server => afortable?
+
+can we call vedio hybrid of audio and photo? no why? multiple photo played per second +audio=vedio.wheeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+????
+share resources in same network.
+
+
+
+
+
+ControlPanel/Programs/Programs and Features/Turn Windows Features on or off:
+check all packages inside IIS
+
+cmd: inetmgr
+
+
+

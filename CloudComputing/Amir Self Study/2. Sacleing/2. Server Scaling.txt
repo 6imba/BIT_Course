@@ -1,0 +1,14 @@
+# Cloud Server Scaling:
+	- Scale Up(veritcally), scaling up and scaling down, increase resources specification(CPU:1,RAM:2GB ==> CPU:2,RAM:4GB ==> CPU:2,RAM:8GB ==> CPU:3,RAM:16GB), increase size/power of a instance(VM), 
+	- Scale Out(horizontal), scaling out and scaling in, increase numbers of additional server(CPU:1,RAM:2GB ==> CPU:1,RAM:2GB+CPU:1,RAM:2GB ==> CPU:1,RAM:2GB+CPU:1,RAM:2GB+CPU:1,RAM:2GB), increase number of instances(VMs), 
+	- Scale Side-by-Side (with Juxtaposition Scaling)
+
+	- Data_Center ~ Virtual_Machine ~ Cloud Server
+	- Scaleing in size/number of Virtual_Machine in Cloud_Data_House.
+
+# Reference:
+	- https://patterns.arcitura.com/cloud-computing-patterns/basics/basic-concepts-and-terminology/scaling
+
+# Increase in Traffic --> Server_Scaling(Up or Out) --> Result&TimeCost.
+
+# 

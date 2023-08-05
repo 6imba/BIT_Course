@@ -1,0 +1,7 @@
+intensity value of a unit pixel:
+1. Color image: RGB intensity{R-intensity, G-intensity, B-intensity}
+2. Gray image: Gray intensity value: black and white photo
+3. Binary image: 1 0
+co-ordinate value = f(23:30, 45:66)
+1 pixel = 8 bit
+depth of image pixel: 1bit, 4bit, 8bit, 8bit-grey(brightness), 16, 24, 32

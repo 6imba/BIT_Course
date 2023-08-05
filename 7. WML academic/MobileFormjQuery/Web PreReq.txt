@@ -1,0 +1,32 @@
+Web: Frontend and Backend
+
+# Frontend
+frontend language: html, csss js
+html: layout & structure
+css: looks & design & style
+js: make web interactive
+JavaScript is a text-based programming language used both on the client-side and server-side that allows you to make web pages interactive. Where HTML and CSS are languages that give structure and style to web pages, JavaScript gives web pages interactive elements that engage a user.
+
+Bootstrap: library of (html + css + js)
+jQuery: library of js(JavaScript library.)
+
+Both bootstrap and jquery are used in web development and primarily for the frontend development. As code of bootstrap and jquery majorly executed at client end so also responsible for style and look and feel of the UI.
+Bootstrap also comes with several JavaScript components in the form of jQuery plugins.
+
+Download the jQuery-library or bootstrap-library from jQuery.com or getbootstrap.com respectively.
+or
+Include jQuery or Bootstrap from a CDN.
+
+******************************************************
+
+# Backend
+
+
+
+
+
+
+
+
+*******************************************************************************************************************************
+#wml single form page with validation.

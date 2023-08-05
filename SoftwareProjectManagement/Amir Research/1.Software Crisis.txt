@@ -1,0 +1,36 @@
+# crisis: a time of intense difficulty or danger.
+
+# Software crisis:
+    - Software crisis refers to a series of serious problems encountered in the development and maintenance of computer software.
+    - Software crisis is a term used in the early days of computing science for the difficulty of writing useful and efficient computer programs in the required time.
+    - Software crisis refers to the phenomenon that a backward software production method cannot meet the rapidly growing demand for computer software, which leads to a series of serious problems in the software development and maintenance process.
+    - Software crisis is a term used in the early days of computing science for the difficulty of writing useful and efficient computer programs in the required time
+    - If project is not completed/efficient within given time period, then you moving toward software crisis.
+
+# Cycle
+    - Software_Industry is changing rapidly.
+    - Software_Demand is increasing rapidly.
+    - Increase in software complexity.
+    -> Using same workforce,methods,tools, for all Software development cycle.
+    -> leads to software crisis.
+
+# Some of big Software crisis occured:
+    1. Y2Kproblem(Year 2000 problem), Y2K Bug, Millennium Bug, 12-12-1900, **-**-19**, 1999->1900 computer coding solved by India.
+        - Time world almost ended.
+        - 1999 year calender.
+        - Less Memory usage.
+        - patch: A patch is a set of changes to a computer program or its supporting data designed to update, fix, or improve it.
+        - Not all computer were affected by this Y2K problem. Y2K was seen in those computers that were using that particular Operating System with 19** bug.
+        - https://www.youtube.com/watch?v=fkpbcAIyfwk
+    2. Arian-5 space rocket
+    3. banks of US Problem.
+    - These are some of three big software_crisis example but in todays time there exists lots of software_crisis in industry.
+
+# Solution:
+    - Software Project Management.(Collection of solutions)
+    - New project -> new workforce,methods,tools.
+    - Delivered software within given time period with no bug.
+    > completion_time & bug ~ software quality.
+    *Motivate
+
+# 

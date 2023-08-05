@@ -1,0 +1,8 @@
+pixel
+resolution
+bitrate
+FPS
+BPS
+KBPS
+MBPS
+bit,kb,mb,gb

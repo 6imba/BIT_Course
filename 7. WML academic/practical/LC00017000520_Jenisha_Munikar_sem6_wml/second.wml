@@ -1,0 +1,32 @@
+<wml>
+    <card title="Tables">
+        <p>
+			<table columns="2">
+				<tr>
+					<td><b>Name</b></td>
+					<td><b>Age</b></td>
+				</tr>
+				<tr>
+					<td>Jenny</td>
+					<td>20</td>
+				</tr>
+				<tr>
+					<td>Siddhi</td>
+					<td>21</td>
+				</tr>
+				<tr>
+					<td>Rachana</td>
+					<td>20</td>
+				</tr>
+			</table>
+		</p>		
+		<p>
+			<img src="abc.jpg" alt="image" height="62" width="60"/><br/>
+		</p>
+        <p>
+			<anchor>
+				Back<prev/>
+			</anchor>
+		</p>	
+    </card>
+</wml>

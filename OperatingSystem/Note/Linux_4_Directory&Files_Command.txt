@@ -1,0 +1,28 @@
+- mkdir dir1_name: make directory
+- mkdir dir2_name/dir2.1_name/dir2.1.1_name
+    - / is seperation if in moiddle & root if in front|end.
+- cd dir2_name: change directory
+- cd .. ==> move to parent dir
+- .. ==> move to parent dir
+- . ==> move to current dir
+- pwd ==> print working directory
+- cd ../../.. ==> move to mutli-level parent dir
+- mkdir dir1_name dir2_name dir3name
+
+# create hidden files:> touch .filename
+# create hidden dir:> mkdir .filename
+# see hidden files:> ls -a
+
+# copy content of file:> cp source_filename destination_filename
+
+# cut and paste file:> mv source_filename|dirname destination_dirname
+
+# rename file|dir:> mv old_filename new_filename.
+
+# delete empty dir:> rmdir dirname
+# delete parent&child dir:> rmdir -p dir1name dir1name
+# delete parent&child&other dir:> rmdir -pv
+# delete files&dir forcefully:> rm -rf **************************************
+# delete files&dir including parent:> rm -rp
+# delete empty dir:> rm -r
+

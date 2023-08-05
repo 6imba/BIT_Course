@@ -1,0 +1,39 @@
+<wml>
+    <card title="Form">
+        <onevent type="onenterforward">
+            <refresh>
+                <setvar name="my_id" value="123456"/>
+            </refresh>
+        </onevent>
+        <p>
+            <big><strong>Registration Form</strong></big><br/><br/>
+            Name <br/>
+            <input name="name"/><br/>
+            Email <br/>
+            <input name="email"/><br/>
+            Date of Birth(MM/DD/YY)
+            <input name="dob"/><br/>
+            Username <br/>
+            <input name="username"/><br/>
+            Password (min 8 characters)<br/>
+            <input type="password" name="psw"/><br/>
+            Gender<br/>
+            <select name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select><br/>
+            <anchor>
+                <go method="get" href="processing.asp">
+                    <postfield name="name" value="$(name)"/>
+                    <postfield name="email" value="$(email)"/>
+                    <postfield name="dob" value="$(dob)"/>
+                    <postfield name="username" value="$(username)"/>
+                    <postfield name="password" value="$(name)"/>
+                    <postfield name="gender" value="$(Gender)"/>
+                    <postfield name="id" value="$(my_id)"/>
+                </go>
+                Submit
+            </anchor>
+        </p>
+    </card>
+</wml>

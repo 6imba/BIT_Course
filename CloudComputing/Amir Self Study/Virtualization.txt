@@ -1,0 +1,53 @@
+# Overview:
+	- virtual(general): almost or nearly as described, but not completely or according to strict definition.
+	- virtual(computing): not physically existing as such but made by software to appear to do so.
+	- virtual image: mirror image. (real image vs virtual image)
+
+# Virtualization:
+	- Technique of splitting actual physical machine resources into as many virtual logical machinces we want.
+	- Virtualization is the creation of a virtual, rather than actual version of something, such as an operating system (OS), a server, a storage device or network resources.
+	- Virtualization in cloud computing is the fundamental technology that allows a provider to virtualize servers, storage, or other physical hardware or data center resources, which can then, in turn, allow them to provide numerous services such as infrastructure, software, and platforms.
+
+# Types of Virtualization:
+	- Network, Storage, Server, Hardware(Platform with OS), Desktop, Application.
+
+1. Network Virtualization:
+	- Virtualizating one single network(LAN,MAN,WAN,so on) into multiple small vitual network.
+
+2. Server Virtualization:
+	- Virtualizating one single server into many Virtual Server.
+	> Actual Server -> Hypervisor -> Virtual Servers
+	> Actual Server(64GB, 1TB, 32Core) -> Hypervisor -> VS(4GB, 100GB, 2Core) | VS(8GB, 400GB, 16Core) | VS(4GB, 100GB, 2Core)
+	> Actual Server(64GB, 1TB, 32Core) -> Hypervisor -> Billing_Server(4GB, 100GB, 2Core) | DHCP_Server(8GB, 400GB, 16Core) | DNS_Server(4GB, 100GB, 2Core)| Firewall_Server(4GB, 100GB, 2Core)
+	- Each virtual server machine is isolated.(meaning none of VS can access data of other VS directly, they have to go via switches of Physical catual server)
+
+3. Hardware(Platform with OS)
+	- Create multiple virtual instance/version of actual physical harware resources(RAM,ROM,Processor,OS) using virtualization technology.
+	> Hardware_resources -> Hypervisor(VMware vSphere/ESXi, Xen/Citrix XenServer) -> OSs -> Software
+		- Hardware_resources: physical harware resources(RAM,Storage,Processor,I/O) ==> Host Physical Manchine
+		- Virtual Hardware
+		- Hypervisor: software or program (VMware vSphere/ESXi, Xen/Citrix XenServer)
+		- OS: Window, Linux
+		- Virtual Machine
+		- Application
+
+# We need different seperate server for different task.
+
+# Data center:
+	- numbers of physical servers.
+	- Storage(Disk) for all servers.
+	- Cabling all servers.
+	- Cpex & Opex.
+
+# Advantages:
+	- Less power consumption
+	- Decreases Cpex & Opex incase of providers.
+	- Decreases Cost incase of consumers.
+	- Assibility
+
+# Terminologies:
+	Q. Difference between virtual and proxy.
+	Q. emulator? simulator? virualization?
+	- virtual, virtualization, virtual machine/computer/environment, virtual box,
+	- Archive file: zip,rar,apk,iso ==> compression, 
+ 

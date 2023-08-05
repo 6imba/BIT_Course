@@ -1,0 +1,9 @@
+Microsoft Window OS:
+	- Kernel
+	- File Explorer
+	- MS Office
+	- 
+
+Difference between Windows application and Web application
+
+is console and cmd same?

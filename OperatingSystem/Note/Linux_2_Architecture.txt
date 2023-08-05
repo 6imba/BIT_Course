@@ -1,0 +1,51 @@
+# Window:
+    - H/w
+    - OS
+    - shell
+     - GUI
+    - user
+
+# Linux:
+    - H/w
+    - Kernel
+    - shell
+     - GUI(Not used generally)
+    - user
+
+# Terminologies in Window & Linux:
+    - Folder: Directory
+    - Administrator: Root User
+    - File: File
+    - Software(Installed ADOBE, MS_Office, Zoom, Filmore) : Package
+
+# File System Hierarchy: Tree
+
+    -> Window:
+        > C:\ drive (D,E,F only if we do partation)
+            - \Programs Files
+            - \Program(X86)
+            - \Users
+            - \Perflogs
+        - C drive consist of all Window related configureation files.
+        - backward slash
+
+    -> Linux:
+        > /
+            - /root
+            - /home
+            - /boot
+            - /etc
+            - /usr
+            - /bin
+        - / is top level root directory.
+        - forward slash
+        - there are other many directory but above these are the most important.
+        - /root: admin
+        - /home: user
+        - /boot: boot drive consist of all Linux_Kernel related bootable_files(initial) & POST.
+        - /etc: etc drive consist of all Linux_Kernel related configureation files.
+        - /usr: default installed sofwares
+        - /bin: consists commands for any user.
+        - /sbin: consists commands for root user.
+        - /dev: consist info of peripheral devices.
+

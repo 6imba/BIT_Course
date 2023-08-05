@@ -1,0 +1,5 @@
+- a situation, typically one involving opposing parties, in which no progress can be made.
+
+- A deadlock is a situation in which two computer programs sharing the same resource are effectively preventing each other from accessing the resource, resulting in both programs ceasing to function.
+
+- https://www.geeksforgeeks.org/introduction-of-deadlock-in-operating-system/

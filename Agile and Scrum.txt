@@ -1,0 +1,40 @@
+# SDLC (Software Development Life Cycle)Phases, Process, Models
+
+# Software Development Life Cycle (SDLC) is a cycle of structured processes used by the software industry to design, develop and test high quality softwares, lowering the cost of software development while simultaneously improving quality and shortening production time.
+    - The Software Development Life Cycle (SDLC) is a structured process that enables the production of high-quality, low-cost software, in the shortest possible production time. The goal of the SDLC is to produce superior software that meets and exceeds all customer expectations and demands. The SDLC defines and outlines a detailed plan with stages, or phases, that each encompass their own process and deliverables. Adherence to the SDLC enhances development speed and minimizes project risks and costs associated with alternative methods of production.
+
+# Phase/Stage of SDLC:
+    Stage 1: Planning and Requirement Analysis
+    Stage 2: Designing the Product Architecture
+    Stage 3: Building or Developing the Product
+    Stage 4: Testing the Product
+    Stage 5: Deployment in the Market
+    Stage 6: Maintenance
+
+# Models/Methodologies of SDLC.
+    - Waterfall Model
+    - Iterative Incremental Model
+    - Spiral Model
+    - V-Model
+    - Prototype Model
+    - Big Bang Model
+    - Agile
+
+# Agile project management is one of the SDLC methodology designed to work in an iterative structure, adapting to changes, responding to constant feedback in an effort to provide constant results.
+
+# Reference:
+    - https://www.synopsys.com/glossary/what-is-sdlc.html
+
+# Question:
+    - iterative vs agile
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+# Agile project management is one of the SDLC methodology designed to work in an iterative structure, adapting to changes, responding to constant feedback in an effort to provide constant results.
+
+    > Project divided into multiple backlogs.
+    > backlogs/stories is completed into multiple sprints.
+        - iterations ~ sprints
+    - Jira| Scrum

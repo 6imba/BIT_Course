@@ -1,0 +1,9 @@
+- Project
+- Software Project Management
+- Needs of SPM.
+
+# Project is a task, which is collection of different operations done in order to achieve goal.
+
+- Software Company -> Rapid change -> Different plan & technology -> Risk -> Management Statergy.
+# Time, Cost & Quality.
+

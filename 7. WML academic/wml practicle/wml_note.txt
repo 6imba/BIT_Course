@@ -1,0 +1,41 @@
+file://File_path\file_name.wml
+file:\\\C:\xampp\htdocs\6th_Sem\index.wml **********
+C:\xampp\htdocs\6th_Sem\index.wml
+
+<card id="one" title="Second_Card">
+        <p>
+            This is the first line in the deck<br/>
+            This is the second line in the deck
+        </p>
+    </card>
+    <anchor>
+        <go href="C:\xampp\htdocs\6th_Sem\index.wml"/>
+    </anchor>
+
+
+
+servers:
+1. trumcat
+2. iis
+3. apache
+
+
+
+
+IIS/Sites/Add Websites
+
+
+
+Emulator and Wap browser
+
+
+how to run wap browser through iis?
+
+
+
+file:///C:\xampp\htdocs\6th_Sem/from.wml
+
+
+
+
+wml jquery js aphache_cordova

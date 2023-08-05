@@ -1,0 +1,17 @@
+# Classic Mistake: Mistake that took placed in past.
+# Categories of Classic Mistake.
+# Few Worst Practise.
+
+# Classic Mistake
+    - Picked Related Software -> Research -> Figure out bug -> Reason behind the Bug -> Solution for that bug.
+
+# Categories of Classic Mistake:
+    - People related
+    - Process related
+    - Product related
+    - Technology related
+
+# Few Worst Practice
+
+- Hard Code vs Soft Code.
+- 

@@ -1,0 +1,134 @@
+# Services based on Cloud_Computing: 
+	- Company: Services
+	- Goggle: Gmail, GogglePhoto, GoogleDrive,
+	- Microsoft: OneDrive,
+	- Netflix: NETFLIX,
+	- Amazon: amazonprime,
+
+
+
+# Cloud Computing:
+	- Cloud computing is a technology that uses the internet for storing and managing data on remote servers and then access data via the internet.
+	- Cloud Computing is providing ondemand services over/through the internet.
+	- Ondemand services means ~ any services at anytime when required. (instant required services.)
+	> Services:
+		- Resources: Harware_Component(Processor, RAM, Storage),
+		- Software_Component(server_application, program(code), services, DBMS)
+
+
+
+# Terminology:
+	- Server is computer that serves services.
+
+
+
+# Established StartUp:
+	- Road-blocks:
+		- Team size, Resources, Cost, Project Demand/Size, so on.
+	- Problems:
+		- Small Team size, Limited resources, Huge Cost, Unpredictability of demands, Headache.
+
+	- System setup for Storage of files & data, 
+	- Hire tech team to manage and maintain that particular system,
+	- Replace work on local-server/system  to remote-server/system.
+	- Minimized cost, headache.ss
+	- Services(Resources+System)
+
+- Problems:
+	- 
+
+- Cloud computing is the use of remote services on the remote server on the internet to store, manage, and process data instead of local servers.
+- Cloud Computing Services: Resources&Sevices + System via inertnet.
+
+
+
+Q. Who provide cloud services? ===> Cloud Service Provider
+	- Cloud Providers: Amazon Web Services, Microsoft Azure, Google Cloud Provider, Alibaba Cloud, iCloud, IBM Cloud, Oracle, etc.
+
+
+
+- Cloud Computing Services:
+	- Ondemand services means ~ any services at anytime when required.
+	- Most of the cloud-services has: Pay-as-you-go model. ~ means pay as your usage of particular services.
+	- Cloud Company is responsible for all infrastructure like Security, Maintainance, Tech Team, etc.
+	- Thats why most of the company nowadays does theirs tasks(data-storage, computing,) via cloud computing services.
+
+- System Specification propertional_to Task Performace.
+
+- On-Premises VS Cloud.
+	> Basis: Scalability(Cost&Services-Option), Server Storage(space&power), Data Security(Securities Measures), Data Loss(Data Recovery), Maintainance(TechTeams).
+	> Compare cost & time of these basis on both side.
+
+# Cloud Computing refers to the delivery of ondemanding computing-services over/through the internet on pay as you go basis.
+- Avoid Local, Go Remote.
+
+# Models of Cloud Computing:
+	1. Deployment Model: Public Cloud(Bus), Private Cloud(Car), Hybrid Cloud(Taxi), Community Cloud().
+	2. Service Model: IAAS, PAAS, SAAS.
+
+1. Deployment Model:
+	- Public Cloud: Gmail,
+		- EveryOne can access it,
+		- 
+	- Private Cloud: 
+		- Specific organization member's can access it,
+		- 
+	- Hybrid Cloud: 
+		- Public & Private
+		- 
+	- Community Cloud: 
+		- Group of specific organization member's can access it,
+		- 
+
+
+
+
+# Data Center: Building that
+	> Consist of:
+		- Multiple (Server, Storage, Other Resources)
+	> Responsibilites
+		- Compute Big Data, Support Cloud Computing, Serve Many Services.
+	> Multiple Data center (their Location & Computation)
+	> Scalibility
+
+
+
+# Single Tenant vs Multitenant
+	- tenant: a person who occupies land or property rented from a landlord.
+	- load balancer
+
+
+
+# DataStorage vs Database vs DataWarehouse vs DataLake.
+# Cloud Storage System: Goggle_Drive_15GB, Microsoft_OneDrive_15GB, DropBox_2GB.
+	> data: text, image, image, email, etc.
+
+
+
+# Type of Data Storage & Its representation.
+	> 
+
+# Advantages:
+	- Setup you server system with in couple of minutes.(Incase of local server it might takes 1 year)
+	- Cloud Serve Infrastucture.(IT infreastructure: License, Router, Switches, Gateway, Firewall, Antivirus, Server, so on)
+	- Cloud Serve Platform. ()
+	- Cloud Serve Software.
+
+
+
+# Cloud Services: Infrastucture, Platform, Software.
+# You access cloud services remotely using CLI or GUI.
+# Cloud data_center region.(avialability zone)
+
+- What ever you are accessing via internet that is cloud.(without internet(not LAN,MAN), there is no cloud)
+- Cloud is the technology via which you can access and manipulate remote resources.
+- Cloud is the technology which provides/serves services over internet.
+
+
+
+
+# Reference:
+	- https://www.youtube.com/watch?v=K_AW8KcMb98&list=PLN9_uYg33bRBpJPcGL9N39yD9qksaGoYN
+	- https://www.youtube.com/watch?v=HhStJ7FDBpc&list=PLYwpaL_SFmcCyQH0n9GHfwviu6KeJ46BV
+	- https://www.youtube.com/watch?v=0rrDqBIP2qU&list=PL-JvKqQx2AtfQ8cGyKsFE7Tj2FyB1yCkd
+	- https://www.youtube.com/watch?v=RmuVkB3siYY&list=PLV8vIYTIdSnaKSiSGvJf2QquSN4lEzGob

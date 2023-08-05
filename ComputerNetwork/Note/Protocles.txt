@@ -1,0 +1,41 @@
+- So in todays time we have got a enormous network among the computer either PAN, LAN, WLAN, MAN, WAN(Internet), SAN, VPN, so on.
+- And billions of computer under same network can communicate to each other.
+- So what are they goona communicate and how?
+- Here come the term call protocol.
+- Protocol is what defines how computers under same network are gonna communicate with each other.
+- Generally humans communicate by talking.
+	- Like Ram can communicate with hari in many ways:
+		1. Ram says "Hari give your pen."
+		2. Ram says "Hari can I borrow your pen please"
+		3. Ram says "Hari I need your pen"
+	- You see no any standard but we can communicate.
+- Unlike human computer need a really structured and standard way to communicate.
+- And that standard is call protocol.
+# Protocol is a standard rigid rules on how computers on same network are gonna communicate with each other.
+# Protocol is a set of standard rigid rules,convention and guidelines that computers under same network should follow to communicate with each other.
+# Protocol in communication is like a Grammer in Language.
+	* packet base communication?
+- So here what do you think, what actually communication between between computers means?
+	communication => exchange of data in the form of packets over the connection_media between computers.
+- File to be share ==> break down into small pieces ==> some security measures is added into each of breaked piece -> this is packet.
+- Sender(sources) sends packet and receiver recives packets and reassemble them in order and generates original files(only if sender and receiver folow the same network protocol).
+- The security measures that are added to each piece are decided by network protocols.
+- So modern network protocols send data in the form of packets.
+
+# Network Protocols: Wireless Network Protocols, Internet Protocols, Network Routing Protocols.
+	- Internet Protocols: WebApps(TCP, UDP, HTTP, FTP), NetworkAdapter(ARP, ICMP).
+	- Wireless Network Protocols: Wifi, Bluetooth, LTE,
+	- Network Routing Protocols: EIGRP, OSPF, BGP (Find best download path for a device to download a file from internet)
+	
+# Date Transfer Remotely ==> Resources, Segment, Packet, Frame.
+	* as data moves from application layer to physical layer, it goes through few transformation.
+	* Resources
+	- Application : Resources + Protocol
+	- Presentation : Resources --> 1010101 | (ASCII) --> EBCDIC (Translation, compression, encryption, decryption SSL)
+	- Sesion : establish connection via API(NETBIOS) --> authenticate, authorized, established session & management, 
+	- Transport : Segmentation(Resouce break into pieces --> data), flow control(data transmission rate between sender and receiver), error control(automatic repeat request, checksum) | segment(data + portNo. + sequenceNo.) ~ TCP(connection, feeback)/UDP(connectionless, no feedback)
+	- Network : PacketContainer(segement + src/des IP_address) ~ routing ~ Network Routing Protocols
+	- Data Link : FrameContainer(packet + src/des MAC_address) ~ NIC
+	- Physical
+	
+# https://www.youtube.com/watch?v=vv4y_uOneC0

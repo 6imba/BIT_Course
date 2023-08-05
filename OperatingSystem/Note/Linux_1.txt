@@ -1,0 +1,65 @@
+Q. ubuntu vs linux vs kali linux?
+Q. ubuntu vs kali linux?
+
+- Unix,
+- Unbuntu, Debian, and Fedora
+- Arch Linux/Manjaro Linux
+- alpine
+
+- Linux operating systems also differ in the way they handle applications. Another major criterion by which the Linux operating systems differ from each other is package management.
+
+
+- uniplex vss multiplex
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Unics
+- Unix
+
+# Flavour of Unix:
+    - IBM-AIX
+    - SUN Solaris
+    - Mac OS
+    - HP-Unix
+    > lisenced not open source and free
+    - # Linux
+
+# Linux:
+    - Linus Torvald studied (*Unix & *MINIX os built by professor "Andrew Tanenbaum") and then built Linux Kernel by own from scratch in 1991.
+    - So here Linux actually is free&open_source kernel.
+    - (1991-1995 free software moment), GNU.
+    - Operating_System = Kernel + Software.
+    - Linux_Operating_System = Linux_Kernel + GNU_Software.
+
+# Flavour of Linux_Kernel:
+    - RHEL (Company)
+    - Fedora (Group of people)
+    - Dedian
+    - Others (ubuntu, centOS, Amazon linux, Kali linux,  Alpine linux)
+    > centOS is the fastest.
+    > ubuntu 3rd most used OS.
+    > Kali linux has some tools which is used mostly in hacking.
+
+# Two ways to used Operating_System:
+    - CLI "Command Line Interface"
+    - GUI "Graphical User Interface"
+    > cmd in window is CLI where we need to give instruction keyboard command.
+    > Window Desktop is GUI where we need to give instruction through mouse.
+    * Window has both CLI and GUI avialable.
+    * Linx also has both CLI and GUI avialable but its GUI is not popular that much.
+    => CLI: terminal, command prompt, shell, powershell, command line utility.
+
+# Companies like RHEL, Fedora, Dedian etc has their own different Linux_Distribution.
+    - In Linux, distribution means version. (terms)
+    - Linux distribution ~ Window Version (7,8,9,10).
+    - Linu_Distribution ~ Linux_OS
+    - Linux_Distribution: RHEL, Fedora, Dedian, centOS, Amazon, Kali, Alpine, etc.
+
+Q. So why Linux?
+    - Microsfot doesnt share its Window_OS code.(Open Sources & free)
+    - Microsfot doesnt have options.
+    - Secure.(Hacking,Virus)
+    - Light-weight
+    - Mutiple-distributions
+
+# Andriod has Linux Kernel.

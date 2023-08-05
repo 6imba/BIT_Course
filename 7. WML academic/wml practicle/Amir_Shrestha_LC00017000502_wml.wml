@@ -1,0 +1,14 @@
+<wml>
+    <card id="card1" title="Registration Form">
+    <p>
+    <big>Registration Form</big><br/>
+    Notice: Fields with * are required.<br/><br/>
+    <b>$(errorMsg)</b><br/>
+
+    UserName:<br/>
+    <input name="username"/></br>
+    Password(min. 8 characters):<br/>
+    <input type="password" name="password"/></br>
+    Email:<br/>
+    <input name="email"/></br>
+</wml>

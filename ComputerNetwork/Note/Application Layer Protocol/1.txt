@@ -1,0 +1,20 @@
+- Application Layer Protocol Name, Port Number, Transport Protocol
+- Application Layer Protocol: Echo, FTP, SSH, Telnet, SMTP, DNS | DHCP, TFTP, HTTP, POP, NTP | HTTPS, RIP.
+- Port Number: 16 bit number. 2 pow 16.
+- Transport Protocol: TCP & UDP
+* HTTP 80 TCP
+* HTTPs 443 TCP (SSL)
+
+- Hyper Text Transfer Prorocol
+- Communication between Web_Server and Clients.
+- HTTP Requests/Response.
+- HTTP protocol is used when comuniacting between Web_Server and Clients while Loading pages, Submit form, Ajax calls, so on. (request and response cycle)
+- Communication between Web_Server and Clients via HTTP protocol is stateless.
+- means every request is completely independent.
+- As it is stateless we can proxy like statefull via programming, local storage, cookies, session, son on.
+- HTTPS: data sent back/forth is encrtypted(SSL/TLS). install SSL/TLS certificate on web host.
+- HTTP Methods: GET, POST, PATCH, PUT, DELETE.
+- 
+
+
+- https://www.youtube.com/watch?v=iYM2zFP3Zn0

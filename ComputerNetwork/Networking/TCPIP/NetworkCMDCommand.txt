@@ -1,0 +1,7 @@
+ipconfig
+ipconfig/all
+
+How to see port number in real devices:
+win+R -> type resmon(resources monitoring) => show what are the port number that are running?
+
+ctrl + shift + esc ==> Task Manager

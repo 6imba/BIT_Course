@@ -1,0 +1,17 @@
+cpu -> kernel ->
+
+bois?
+os?
+
+
+software ---> OS(kernerl) -----> hardware_component(processor,speaker,RAM, storage,camera,display,bluetooth_module,wifi_module)
+
+kernerl: setup or system.
+
+kernel vs OS?
+
+
+linux kernel, anti krenel, darwin kernel,etc
+
+system software vs application software.
+

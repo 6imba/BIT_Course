@@ -1,0 +1,3 @@
+- Phases is group of processes.
+- Phases: Initiating, Planning, Executing, Monitoring/Control, Closing.
+- 

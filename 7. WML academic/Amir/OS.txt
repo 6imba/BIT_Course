@@ -1,0 +1,82 @@
+Q. What is an OS in computer?
+	- An operating system is a software programme, required to manage and operate a computing device(computer hardware & software programs)
+	- Some of computing device are smartphones, tablets, computers, supercomputers, web servers, cars, network towers, smartwatches, and many more.
+	- Windows is the operating system; Microsoft Office is a program. Think of it this way.
+	- OS is program that enables communication between hardware and software.
+	- User<->Apps<->OS<->Hardware.
+	- OS generates output of particular input from apps via hardware processing.
+	- OS acts as interface between h/w & s/w.
+
+# Some of Popular Operating System:
+	- Apple macOS, Microsoft Windows, Google's Android OS, Linux Operating System, and Apple iOS.
+
+- Windows, Linux, and Android are examples of operating systems that enable the user to use programs like MS Office, Notepad, and games on the computer or mobile phone.
+
+- Software can be broadly divided into two categories: operating systems and application software.
+
+- Dhus, The operating system (OS) is the system software used to manage the computer's software, hardware, and resources(physical or virtual component within computer system).
+
+- OS and owner company:
+	> Window - Microsoft Corporation,
+	> macOS - Apple Inc.,
+	> Android - Google Inc,
+	> Linux -  Linus Torvalds,
+	> iOS -  Apple,
+	- here, Window and macOS are the OS for Desktop.
+	- Incontrast, Andriod and iOS are the OS for Mobile.
+	Q. Device, their sizes and their OS relation?
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Android:
+	- The Android operating system is a mobile operating system that was developed by Google (GOOGL​) to be primarily used for touchscreen devices, cell phones, and tablets.
+	- Android primarily designed for touch screen devices.
+	- Initially developed by Andriod Inc. and financially backed by Goggle.
+	- But later in 2005, Andriod was fully bought by Google.
+	- Android wa unveiled in 2007 as the same time Open Handset Alliance was founded.
+	- Open Handset Alliance is the consortium of technology companies( hardward, softare, telecommuniction), that makes standards for mobile devices.
+
+# Type of devices that runs Android:
+	- Android operating system devices: computers, digital cameras, media players, notebooks, smartphones and many more.
+
+Q. Is Android owned by Google? How can other companies use Android?
+	- https://www.quora.com/Who-owns-Android
+	- Android, Google, Open Handset Alliance
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# Reference:
+	- https://www.youtube.com/watch?v=YNJKj034TmY
+
+# Questions:
+	- Linus Kernel.
+
+# Note:
+	- Open ==> Free of License.
+	- Sources => Source Code.
+	- Open Source: Free of License/chanrge/cost whose source code is visible, reuseable, modifiable.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Webview:
+	# A webView is a browser rendering engine embedded  within native appliation, which is use to display web content within an application.
+	# Webview is installed in every devices as a system application.
+
+# Use of Webview:
+	- App in your andriod device may have an link to external website, which on click loads the particular webpage.
+	- Here external webpage page gets loaded in browser outside the current running app, which is bad user experience as we are out of our appplication.
+
+# Therefore ladies and gentlemen, here I present you Andriod WebView.
+	- That loads the external webpage on the top of or inside current running app, without redirecting outside current running application.
+
+# In case, if there was no Webview in our system then we get redirect to another website outside(browser) our current app.
+
+# Therefore main purpose of this system app is to maintain user experience, as we click any link we dont get redirect to some other app.
+
+# Till now we talk WebView as a rendering engine of an device.
+# As we know that different device have their own operating system. So various OS has their respective  web rendering engine.
+	- WebKIT in iOS: browser on iOS actually uses WebKIT.
+	- Blink in Andriod: browser on iOS actually uses Blink.
+	- Likewise Window, Linux, macOS have their lots of WebView choices.
+
+There are many framework to implement webView in our project
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,118 @@
+# Overview:
+	- Road-blocks:
+	- Team size, Resources, Cost, Project Demand/Size, so on.
+	- Problems:
+		- Small Team size, Limited resources, Huge Cost, Unpredictability of demands, Headache.
+	- System setup for Storage of files & data, 
+	- Hire tech team to manage and maintain that particular system,
+	- Replace work on local-server/system  to remote-server/system.
+	- Minimized cost, headache.ss
+	- Services(Resources+System)
+
+
+
+Q. What do you mean by cloud? Describe the basic characteristics of the cloud?
+	- Cloud Computing is the techology of serving ondemand services over the internet on pay as you go basis.
+	- Ondemand services means ~ any services at anytime when required. (instant required services.)
+	> Services:
+		- Resources: Harware_Component(Processor, RAM, Storage),
+		- Software_Component(server_application, program(code), services, DBMS)
+
+	# Characteristics(Advantages) of the cloud computing:
+		- On demand self services,
+		- Broad network access,
+		- Acccessibility(Location independent & Resource Pooling),
+		- Scalability,
+		- Storage,
+		- Maintainance,
+		- Security,
+		- Relaibility & backup,
+		- Cost & Affordable.
+
+	# Challenges(Disadvantages) of cloud computing:
+		- Network(internet) connection Dependency,
+		- Lack of support by providers,
+		- One CSP may not have all the service that you need,
+		- Privacy & Data Security
+		- Data Recovery and Backup
+
+
+
+Q. What type of deployment models can be adopted in cloud computing? Describe each of them with a suitable example.
+	# Models of Cloud Computing:
+	1. Deployment Model:
+		- Public Cloud(Bus): EveryOne can access it,
+		- Private Cloud(Car): Specific organization member's can access it
+		- Hybrid Cloud(Taxi): Public & Private
+		- Community Cloud(): Group of specific organization member's can access it.
+	2. Service Model:
+		# Architecture of CC: Networking->Storage->Servers->Virtualization->OS->Middleware->Runtime->Data->Applications.
+		- IAAS: Networking->Storage->Servers->Virtualization->OS
+			- infrastructure is provided as an outsource to enterprises such as networking equipment, devices, database, and web servers
+			- virtual machine,server,storage,network,load balancer.
+		- PAAS: Networking->Storage->Servers->Virtualization->OS->Middleware->Runtime
+			- provides a platform and environment to allow developers to build applications and services over the internet. 
+			- Database, web server, development tools
+		- SAAS: Networking->Storage->Servers->Virtualization->OS->Middleware->Runtime->Data->Applications
+			- way of delivering services and applications over the Internet. Instead of installing and maintaining software, we simply access it via the Internet
+			- CRM, email, games
+		- On-Premises Model
+		> Provides responsible & Client responsible.
+		> Cloud clients: Web Browser, Mobile App, etc.
+
+
+
+Q. What do you mean by virtualization? What is the role of virtualization in cloud computing?
+	
+	- Technique of splitting actual data center sphysical machine resources(operating system, a server, a storage device or network resources) into as many virtual logical machinces we want.
+
+	- Types of Virtualization: Network, Storage, Server, Hardware(Platform with OS), Desktop, Application.
+
+	1. Network Virtualization:
+		- Virtualizating one single network(LAN,MAN,WAN,so on) into multiple small vitual network.
+
+	2. Server Virtualization:
+		- Virtualizating one single server into many Virtual Server.
+		> Actual Server -> Hypervisor -> Virtual Servers
+		> Actual Server(64GB, 1TB, 32Core) -> Hypervisor -> VS(4GB, 100GB, 2Core) | VS(8GB, 400GB, 16Core) | VS(4GB, 100GB, 2Core)
+		> Actual Server(64GB, 1TB, 32Core) -> Hypervisor -> Billing_Server(4GB, 100GB, 2Core) | DHCP_Server(8GB, 400GB, 16Core) | DNS_Server(4GB, 100GB, 2Core)| Firewall_Server(4GB, 100GB, 2Core)
+		- Each virtual server machine is isolated.(meaning none of VS can access data of other VS directly, they have to go via switches of Physical catual server)
+	
+	3. Hardware(Platform with OS)
+		- Create multiple virtual instance/version of actual physical harware resources(RAM,ROM,Processor,OS) using virtualization technology.
+		> Hardware_resources -> Hypervisor(VMware vSphere/ESXi, Xen/Citrix XenServer) -> OSs -> Software
+			- Hardware_resources: physical harware resources(RAM,Storage,Processor,I/O) ==> Host Physical Manchine
+			- Virtual Hardware
+			- Hypervisor: software or program (VMware vSphere/ESXi, Xen/Citrix XenServer)
+			- OS: Window, Linux
+			- Virtual Machine
+			- Application
+
+	# We need different seperate server for different task.
+
+	# Data center:
+		- numbers of physical servers.
+		- Storage(Disk) for all servers.
+		- Cabling all servers.
+		- Cpex & Opex.
+
+	# Advantages:
+		- Less power consumption
+		- Decreases Cpex & Opex incase of providers.
+		- Decreases Cost incase of consumers.
+		- Assibility
+
+
+
+Q. Discuss about disasters in cloud. How intrusions are detected in cloud?
+	- Disasters in cloud is the unfortunate phenomenon, which might cause loss in data or degrade security aspect of cloud.
+	- Cloud disaster recovery (CDR) is a cloud-based managed service that helps you quickly recover your organization’s critical systems after a disaster and provides you remote access to your systems in a secure virtual environment.
+	- Cloud disaster recovery is a service that enables the backup and recovery of remote machines on a cloud-based platform.
+	- Disasters might be any of:
+		- Natural disasters, such as earthquakes or floods,
+		- Technical failures, such as power failure or network connectivity,
+		- Human actions, such as inadvertent misconfiguration or unauthorized/outside party access or modification.
+
+
+
+Q. How grid computing differs from cloud computing? Justify what the elasticity and multitenancy properties of cloud computing mean?

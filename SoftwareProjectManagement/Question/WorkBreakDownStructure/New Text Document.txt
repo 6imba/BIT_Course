@@ -1,0 +1,7 @@
+- Work breakdown structures are based on divide and rule policy. The total scope of the project is broken down into smaller manageable pieces known as work packages. Once developed, Work breakdown structures (WBS) are the focal point for project planning, scheduling, budgeting, monitoring and controlling.
+
+# How is it prepared?
+	- Clarity of the scope and objectives of the project is mandatory
+	- Determine the Product Break Down Structure (PBS)
+	- Determine the Work Packages
+	- Levels of effortsss

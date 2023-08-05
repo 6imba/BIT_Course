@@ -1,0 +1,11 @@
+- source,medium,detector.
+- vibration,wave,wavelength,period,frequency,pitch,loudness,volume,
+- sound is a form of energy.
+- sound is produced because of mechanical moment(molecule vibration)
+- sound travel over medium(solid,liquid,gas) but not vaccum
+- sound give sense of hearing
+- sound wave vs water wave
+- stereo music
+- Audio File Formate: .wav,.vox,.mp3
+- sound vs audio
+- 

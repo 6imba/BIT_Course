@@ -1,0 +1,60 @@
+# Cloud is the technology which provides/serves services over internet.
+
+# Cloud Services:
+	- IAAS(Infrastructure as a Service) --> System Administrative use it.
+	- PAAS(Platform as a Service) --> Developer use it. --> Heroku, 
+	- SAAS(Software as a Service) --> Client User use it. --> GIT
+
+# Service Model of Cloud:
+	# Layers in model:
+	1. Network(Router, Gateway, Firewall)
+	2. Storage(Save data)
+	3. Server(Serve services)
+	4. Virtualization(Virtual form of 1,2,3)
+	5. OS ***************************************
+	6. Middleware
+	7. Runtime
+	8. Data
+	9. Application
+
+	# IAAS: 1,2,3,4.
+		- Infrastructure: Hardwares Services Virtualization. 
+		- Virtual form(4) of 1,2,3.
+	# PAAS: 1,2,3,4,5,6,7.
+		- Platform: Place to run Service(like MySQL for Database, so on)
+	# SAAS: 1,2,3,4,5,6,7,8,9.
+		- Software: 
+
+
+
+# Deployment Model of Cloud:
+	1. Public Cloud: AWS, GCP, Azure -(It can provide virtual private cloud as well)
+	2. Private Cloud: Enterprise Cloud ==> Dell Company Cloud: head and branchs, Samsung Company Cloud: head and branchs ==> Private Cloud of Individual Companies, more secured.
+	3. Hybrid Cloud: Public & Private Cloud.
+
+
+
+# Virtualization:
+	1. Network
+	2. Storage
+	3. Server
+	   ***Hypervisor***
+	4. Virtualization
+	5. Cloud
+
+	- Hypervisor in Microsoft is HyperV.
+	- Hypervisor in AWS is Citrix.
+	- Hypervisor in VMware is Vsphere_ESXI_6.5.
+
+	- By virtualizing infrastructure according to requirement you create cloud service.
+
+
+
+# Local solved by Cloud.
+# Time_Period ~ Traffic ~ Resources Scaling up/down || right/left.
+
+
+
+# Reference:
+	- https://www.youtube.com/watch?v=XMskE8AjEjs
+	- 

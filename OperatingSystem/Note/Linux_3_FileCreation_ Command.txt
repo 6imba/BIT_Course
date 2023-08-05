@@ -1,0 +1,43 @@
+# Reference: https://www.youtube.com/watch?v=5-Dspz2_aHQ&list=PLBGx66SQNZ8aPsFDwb79JrS2KQBTIZo10&index=6
+
+# Create file:
+    - cat:(concatinator: create&write/ concatinate_multiple_file/ copy_file/ tac ) ==> 1)cat > filename 2)<enter> 3)write file content 4) ctr+d
+    - touch:(create with timestamp) ==> create_emptyfile/ create_multiple_emptyfile/ change_all_timestamp_of_a_file/ 
+    - vi/vim: (editor) ==> 
+    - nano: (editor) ==> 
+
+    - cat:(concatinator: create&write/ concatinate_multiple_file/ copy_file/ tac ):
+        ==> cat > filename: create & write file content.
+        ==> cat filename: read content of file.
+        ==> cat >> filename: append content in existing file.
+        ==> cat file1name file2name > new_filename: create new file concatinating existing multiple files.
+
+    - touch: timestamp: access time, modify time, change metadata time(metadata: data of data).
+        - touch filename
+        - touch file1name file2name file3name
+        - stat filename
+        - touch -a file1name
+        - touch -m file1name
+
+    - vi/vim: (opens editor)
+        - vi filename <enter>
+         - opens editor
+            - i <enter>
+                - write content
+                    - <esc>
+                        - :wq or :x
+                        - :w
+                        - :q
+                        - :q!
+                        (w=save & q=quit)
+                        (navigation keys: H J K L)
+    - nano: (opens editor)
+        - nano filename
+         -opens editor
+            - write content
+                - ctr + X OR ctrl + O
+                    - Y or shift+Y
+
+- ls: list
+- cat file
+- 

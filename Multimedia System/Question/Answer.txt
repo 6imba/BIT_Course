@@ -1,0 +1,17 @@
+# Raster images VS Vector images:
+	- Raster_Images: 
+		* Image File Formats: JPG,JPEG(LossyCompressionImageAlsoGoodQuality),GIF,PNG,TIFF,
+		* File Formats to create images: RAW(DNG,manymore).  A raw data file (also commonly called an ASCII file).
+	- Vector_Images:
+		* Image File Formats: EPS,PSD,AI.
+		
+# Image depth: shades btn black and white.
+	> 1-bit
+	> 4-bit
+	> 8-bit (3 channels:RGB)
+	> 10-bit
+	> 16-bit
+
+# Bit depth vs Bit rate vs BPC(Bit Per Channel)
+
+# Turning 2D into depth images.+

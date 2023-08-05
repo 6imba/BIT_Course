@@ -1,0 +1,27 @@
+<wml>
+	<card title="WML">
+		
+		<p>
+			<anchor><go href="index.wml"/>Home</anchor>
+			<span>|</span>
+			<anchor><go href="register.wml"/>Register</anchor><br/>			
+		</p>
+
+		<p>Hello World!!!<br/></p>
+		
+		<p>
+			<big>Table link</big>
+			<anchor>
+				<go href="second.wml"/>Check the table
+			</anchor><br/>
+		</p>
+
+		<p>
+			<big>Form link</big>
+			<anchor>
+				<go href="form.wml"/>Fill this form
+			</anchor><br/>
+		</p>	
+		
+	</card>
+</wml>
